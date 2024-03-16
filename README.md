@@ -90,7 +90,7 @@ docker ps -a
 
 Ingrasamos al contenedor:
 ```
-docker exec -it challenge-validar-token-web-1 bashc
+docker exec -it challenge-validar-token-web-1 bash
 ```
 Y ejecutamos el siguiente comando para instalar las librerias
 
