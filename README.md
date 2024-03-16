@@ -77,7 +77,7 @@ git clone git@github.com:csena72/validar-token.git
 _Ingresar en la carpeta donde se clonó el proyecto y ejecutar_
 
 ```
-cd validar-token
+cd challenge-validar-token
 
 docker compose build
 docker compose up -d
