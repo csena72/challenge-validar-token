@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: . # Este es el directorio raíz
+      dockerfile: ./app/docker/Dockerfile
+    ports:
+      - "8000:80"
+    volumes:
+      - ./app/challenge:/var/www/html
+      - ./app/docker/apache-config.conf:/etc/apache2/sites-available/000-default.conf
