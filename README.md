@@ -81,9 +81,21 @@ cd validar-token
 
 docker compose build
 docker compose up -d
+```
+Para ver si esta corriendo nuestro contenedor ejecutamos:
 
+```
+docker ps -a
+```
+
+Ingrasamos al contenedor:
+```
+docker exec -it challenge-validar-token-web-1 bashc
+```
+Y ejecutamos el siguiente comando para instalar las librerias
+
+```
 composer install
-
 ```
 
 
