@@ -97,7 +97,10 @@ Y ejecutamos el siguiente comando para instalar las librerias
 ```
 composer install
 ```
-
+Damos permiso al directorio de cache:
+```
+chmod -R 777 writable/cache
+```
 
 ### 🚀 Para correr la aplicación:
 
